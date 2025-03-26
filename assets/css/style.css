@@ -66,6 +66,8 @@ a {
 }
 
 .hero-wrap {
+    display: flex;
+    align-items: center;
     position: relative;
     background-color: #E6F0FF;
     height: calc(100vh - 90px);
@@ -108,10 +110,6 @@ a {
     font-size: 1.4rem;
     border-radius: 8px;
     padding: 13px 16px;
-}
-
-.hero {
-    padding-top: 130px;
 }
 
 .hero .info {
@@ -619,6 +617,11 @@ a {
     white-space: nowrap;
 }
 
+.footer .row-top .item a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
 .footer .row-top .desc {
     white-space: normal;
     line-height: 1.75;
@@ -634,6 +637,10 @@ a {
     margin-right: 16px;
     width: 28.471px;
     height: 28.471px;
+}
+
+.footer .row-top .social-link:hover {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 .footer .row-bottom {
