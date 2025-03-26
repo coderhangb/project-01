@@ -171,12 +171,14 @@ a {
 .client .image {
     display: flex;
     justify-content: space-between;
-    margin-top: 96.5px;
+    margin-top: 70px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .client .image a {
+    display: flex;
+    align-items: center;
     padding: 27.25px 40px;
     border-radius: 12px;
 }
