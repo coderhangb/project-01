@@ -9,6 +9,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 html {
@@ -156,7 +157,7 @@ a {
 
 .client {
   margin-top: 79px;
-  padding: 43px 165px 41px;
+  padding: 43px 0px 41px;
 }
 
 .client .row {
